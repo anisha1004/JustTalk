@@ -12,8 +12,7 @@ export default function ButtonAppBar() {
 		<div className='nav-main'>
 			<Link to='/' className='home-link'>
 				<div className='div-left'>
-					<img src={Logo} alt='Logo' className='logo' />
-					<span className='nav-heading'>A STRANGER'S ADVICE</span>
+					<span className='nav-heading'>Just Talk</span>
 				</div>
 			</Link>
 			{user ? (

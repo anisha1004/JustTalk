@@ -3,36 +3,20 @@ import "./styles.css";
 import { Link } from "react-router-dom";
 import Above from "../Components/aboveHome";
 import CounselHome from "../Components/images/listen.jpg";
+import Frontimg from "../Components/images/front.jpg";
 
 function Home() {
 	return (
 		<div className='homepage'>
 			<div className='front-top'>
-				<div
-					data-poster-url='https://assets-global.website-files.com/5f6b627361bad8cad0fc5c99/605905e7e0e3ca7eaa7af26d_girl-on-phone-poster-00001.jpg'
-					data-video-urls='https://assets-global.website-files.com/5f6b627361bad8cad0fc5c99/605905e7e0e3ca7eaa7af26d_girl-on-phone-transcode.mp4,https://assets-global.website-files.com/5f6b627361bad8cad0fc5c99/605905e7e0e3ca7eaa7af26d_girl-on-phone-transcode.webm'
-					data-autoplay={true}
-					data-loop={true}
-					data-wf-ignore={true}
-					className='video_div'>
-					<video
-						autoPlay={true}
-						loop={true}
-						muted=''
-						playsInline=''
-						data-wf-ignore={true}
-						disablePictureInPicture={true}
-						className='video-name'>
-						<source
-							src='https://assets-global.website-files.com/5f6b627361bad8cad0fc5c99/605905e7e0e3ca7eaa7af26d_girl-on-phone-transcode.mp4'
-							data-wf-ignore={true}
-						/>
-						<source
-							src='https://assets-global.website-files.com/5f6b627361bad8cad0fc5c99/605905e7e0e3ca7eaa7af26d_girl-on-phone-transcode.webm'
-							data-wf-ignore={true}
-						/>
-					</video>
-					<Above />
+				<div className='front-top-left'>
+					<span className='front-head'>JUST TALK</span>
+					<span className='front-subhead'>
+						Healing takes time and asking for help is a courageous step
+					</span>
+				</div>
+				<div className='front-top-right'>
+					<img src={Frontimg} className='frontImg' />
 				</div>
 			</div>
 			{/* <CounselPage /> */}

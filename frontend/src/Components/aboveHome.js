@@ -7,8 +7,8 @@ function Above() {
 	return (
 		<React.Fragment>
 			<div className='above'>
-				<h1 className='above_h1'>A STRANGER'S ADVICE</h1>
-				<p className='above_p'>Made by students for students</p>
+				<h1 className='above_h1'>Just Talk</h1>
+				<p className='above_p'>One stop shop for all your therapeutic needs.</p>
 			</div>
 		</React.Fragment>
 	);

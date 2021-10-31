@@ -33,6 +33,36 @@
 .front-top {
 	height: 77vh;
 	width: 100vw;
+	display: flex;
+	align-items: center;
+}
+.front-top-left {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 40vw;
+}
+.front-head {
+	font-size: 48px;
+	font-family: "Cinzel";
+}
+.front-subhead {
+	font-size: 25px;
+	font-family: "Poppins";
+	text-align: center;
+	padding: 15px;
+}
+.front-top-right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 60vw;
+	height: 100%;
+}
+.frontImg {
+	height: 70%;
+	object-fit: contain;
 }
 
 .above {
@@ -53,7 +83,7 @@
 }
 
 .bot-heading {
-	font-size: 40px;
+	font-size: 30px;
 	font-family: "Cinzel";
 }
 
@@ -62,7 +92,7 @@
 	justify-content: center;
 	align-items: center;
 	font-family: "Cinzel";
-	font-size: 36px;
+	font-size: 26px;
 }
 
 .bot-desc > span {
@@ -70,7 +100,7 @@
 }
 
 .bot-image {
-	height: 100px;
+	height: 80px;
 }
 
 .link-counsel {
